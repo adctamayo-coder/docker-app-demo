@@ -22,7 +22,7 @@ public class App {
 
     private static void handleRequest(HttpExchange exchange) throws IOException {
         String hostname = System.getenv().getOrDefault("HOSTNAME", "desconocido");
-        String response = "Hola desde el contenedor de la aplicacion - holaprofeayuda" +
+        String response = "Hola desde el contenedor de la aplicacion - holaprofeayuda2" +
                 "Host: " + hostname + "\n" +
                 "Fecha/Hora: " + LocalDateTime.now() + "\n";
 
